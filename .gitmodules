@@ -1,0 +1,7 @@
+[submodule "dependencies/IsaacLab"]
+	path = dependencies/IsaacLab
+	url = https://github.com/uynitsuj/IsaacLab.git
+
+[submodule "data/franka_description"]
+	path = data/franka_description
+	url = https://github.com/uynitsuj/franka_description.git

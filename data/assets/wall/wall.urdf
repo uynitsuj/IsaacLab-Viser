@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<robot name="cuboid_robot">
+    <link name="world"></link>
+
+  <!-- Link: Base Cuboid -->
+  <link name="cuboid_link">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0 "/>
+      <geometry>
+        <box size="2.5 0.01 1.8"/> <!-- Length, width, height -->
+      </geometry>
+      <material name="gray">
+        <color rgba="0.6 0.53 0.47 1.0"/> <!-- Green color -->
+      </material>
+    </visual>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="2.5 0.01 1.8"/>
+      </geometry>
+    </collision>
+
+    <inertial>
+      <mass value="1.0"/>
+      <inertia ixx="0.01" ixy="0.0" ixz="0.0" iyy="0.01" iyz="0.0" izz="0.01"/>
+    </inertial>
+  </link>
+
+  <!-- Joint: Fixed Base -->
+  <joint name="base_joint" type="fixed">
+    <parent link="world"/>
+    <child link="cuboid_link"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+</robot>

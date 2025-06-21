@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "isaaclab_viser"
+version = "0.0.1"
+description = "Tool for headless IsaacLab development"
+authors = [
+    {name = "Justin Yu", email = "yujustin@berkeley.edu"},
+]
+license = {text = "MIT Software License"}
+readme = "README.md"
+requires-python = ">=3.10, <3.12"
+dependencies = [
+    "numpy==1.26.4",
+    "viser",
+    "tyro",
+    "loguru",
+    "jax",
+]
+
+[tool.setuptools.packages.find]
+exclude = ["catkin_ws*"]

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<robot name="tiger">
+
+  <!-- Link with .obj mesh -->
+  <link name="geometry">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="12_10_2024_transformed.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+      <material name="default_material">
+        <color rgba="0.5 0.5 0.5 1.0"/> <!-- Grey color -->
+      </material>
+    </visual>
+
+    <collision>
+      <origin xyz="0 0.012 0.02" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.038 0.038 0.09"/>
+      </geometry>
+    </collision>
+
+    <inertial>
+      <mass value="1.0"/>
+      <inertia ixx="0.01" ixy="0.0" ixz="0.0" iyy="0.01" iyz="0.0" izz="0.01"/>
+    </inertial>
+  </link>
+
+</robot>
