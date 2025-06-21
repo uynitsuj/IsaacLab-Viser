@@ -12,13 +12,14 @@ pip install torch==2.5.1 torchvision==0.20.1 --index-url https://download.pytorc
 pip install --upgrade pip
 pip install 'isaacsim[all,extscache]==4.5.0' --extra-index-url https://pypi.nvidia.com
 
+cd IsaacLab-Viser
 pip install -e .
 
-cd IsaacLab-Viser/dependencies/IsaacLab
+cd dependencies/IsaacLab
 sudo apt install cmake build-essential
 ./isaaclab.sh --install none
 
 cd ../../
-python scripts/run.py
+python scripts/run.py # First run might error
 
 ```
