@@ -4,7 +4,7 @@
 
 ## Motivation
 
-This project enables headless development and visualization for IsaacLab robotics simulations using [Viser](https://viser.studio/). Instead of relying on IsaacLab's built-in GUI, which can be cumbersome for development workflows, IsaacLab-Viser provides a web-based interface that allows you to:
+This project enables headless development and visualization for IsaacLab robotics simulations using [Viser](https://viser.studio/). Instead of relying on IsaacLab's built-in GUI, which may be considered cumbersome for rapid development workflows, IsaacLab-Viser provides a web-based interface that allows you to:
 
 - Develop and debug robot simulations in headless environments (SSH, Docker, cloud instances)
 - Visualize robot states, trajectories, and sensor data through a browser
