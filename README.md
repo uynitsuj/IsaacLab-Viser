@@ -2,6 +2,18 @@
 
 ![IsaacLabViser](media/IsaacLabViser.gif)
 
+## Motivation
+
+This project enables headless development and visualization for IsaacLab robotics simulations using [Viser](https://viser.studio/). Instead of relying on IsaacLab's built-in GUI, which can be cumbersome for development workflows, IsaacLab-Viser provides a web-based interface that allows you to:
+
+- Develop and debug robot simulations in headless environments (SSH, Docker, cloud instances)
+- Visualize robot states, trajectories, and sensor data through a browser
+- Interact with simulations remotely without requiring a desktop environment
+- Maintain the full power of IsaacLab while gaining flexibility in visualization and control
+
+Perfect for researchers and developers who want to work with IsaacLab on remote servers or in containerized environments.
+
+# Install Instructions
 ```
 git clone --recurse-submodules https://github.com/uynitsuj/IsaacLab-Viser.git
 
@@ -21,5 +33,17 @@ sudo apt install cmake build-essential
 
 cd ../../
 python scripts/run.py # First run might error
+
+```
+
+Running the `scripts/run.py` should give you:
+
+```
+╭──────────────── viser ────────────────╮
+│             ╷                         │
+│   HTTP      │ http://localhost:8080   │
+│   Websocket │ ws://localhost:8080     │
+│             ╵                         │
+╰───────────────────────────────────────╯
 
 ```
