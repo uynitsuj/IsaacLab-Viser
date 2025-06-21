@@ -48,3 +48,6 @@ Running the `scripts/run.py` should give you:
 ╰───────────────────────────────────────╯
 
 ```
+With port-forwarding enabled (automatically done on IDEs like VSCode, Cursor) clicking the http link should give you a web interface similar to the one shown in the GIF
+
+Further instructions/tips on example development workflows to come soon!
