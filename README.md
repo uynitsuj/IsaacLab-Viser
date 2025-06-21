@@ -9,9 +9,10 @@ This project enables headless development and visualization for IsaacLab robotic
 - Develop and debug robot simulations in headless environments (SSH, Docker, cloud instances)
 - Visualize robot states, trajectories, and sensor data through a browser
 - Interact with simulations remotely without requiring a desktop environment
-- Maintain the full power of IsaacLab while gaining flexibility in visualization and control
 
 Perfect for researchers and developers who want to work with IsaacLab on remote servers or in containerized environments.
+
+Downside is that many features probably require manual addition on the part of the user.
 
 # Install Instructions
 ```
