@@ -1,5 +1,7 @@
 # IsaacLab-Viser
 
+![IsaacLabViser](media/IsaacLabViser.gif)
+
 ```
 git clone --recurse-submodules https://github.com/uynitsuj/IsaacLab-Viser.git
 
