@@ -16,10 +16,6 @@ from isaaclab.markers.config import FRAME_MARKER_CFG
 from isaaclab.utils.math import subtract_frame_transforms, euler_xyz_from_quat
 from isaaclab.controllers import DifferentialIKController, DifferentialIKControllerCfg
 
-# Import utility functions for quaternion operations (assuming these exist)
-# from xi.utils.math import reorient_quaternion_batch, slerp_with_clip, wrap_to_pi
-
-
 @dataclass
 class ManipulationConfig:
     """Configuration for manipulation phases"""
