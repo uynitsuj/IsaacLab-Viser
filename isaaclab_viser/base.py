@@ -1,5 +1,4 @@
 
-"""Rest everything follows."""
 import torch
 
 import isaaclab.sim as sim_utils
